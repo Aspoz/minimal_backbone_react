@@ -3,8 +3,8 @@ class App.Views.Pools extends Backbone.View
   className: 'pools'
 
   initialize: ->
-    @listenTo @collection, 'reset', @render
-    @collection.fetch({ reset: true })
+    @listenTo @collection, 'sync', @render
+    @collection.fetch()
 
   render: ->
     @collection.forEach @renderPool, @
