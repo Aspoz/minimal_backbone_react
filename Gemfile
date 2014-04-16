@@ -27,6 +27,7 @@ gem 'spring',        group: :development
 
 gem 'railsy_backbone'
 gem 'handlebars_assets'
+gem 'react-rails', '~> 0.10.0.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

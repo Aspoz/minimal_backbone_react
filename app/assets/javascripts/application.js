@@ -18,5 +18,7 @@
 //= require backbone
 //= require railsy_backbone.sync
 //= require railsy_backbone.datalink
+//= require react
+//= require vendor/react.backbone
 //= require backbone/backbone
 //= require_tree .

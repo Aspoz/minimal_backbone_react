@@ -8,6 +8,6 @@ window.App =
   Collections: {}
   Views: {}
 
-  Pools: ->
-    @PoolsView = new App.Views.Pools(collection: new App.Collections.Pools)
-    $(document.body).prepend(@PoolsView.render().el)
+  # Pools: ->
+  #   @PoolsView = new App.Views.Pools(collection: new App.Collections.Pools)
+  #   $(document.body).prepend(@PoolsView.render().el)
